@@ -1,0 +1,251 @@
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+
+
+.tiktok{
+    width: 30px;
+}
+header{
+    width: 1100;
+    height: 130;
+}
+.apple{
+    display: flex;
+    gap: 12px;
+
+}
+.nav-info ul{
+    display: flex;
+    gap: 12px;
+}
+.nav-info img{
+    gap: 12px;
+}
+.nav-picture{
+    display: flex;
+  align-items: center;
+  gap: 10%;
+  margin-left: 14%;
+}
+.nav-cointainer{
+    display:flex;
+    justify-content: space-around;
+    padding: 24px 40px;
+    gap: 30%;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.nav-info li{
+    list-style: none;
+}
+.nav-info a{
+    text-decoration: none;
+    justify-content: space-around;
+}
+.phiza{
+   
+    height: 30px;
+}
+
+.olive{
+    margin-bottom: 5px; 
+}
+.banners{
+     width: 45%;
+     border: 1px solid pink;
+     align-items: center;
+     text-align: center;
+    
+}
+.banner-info{
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.goat{
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.first-section{
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+}
+.first-section ul{
+
+align-items: center;
+justify-content: center;
+ color: #534C64;
+text-align: left;
+padding-left: 33%;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: lowercase;
+
+
+}
+.first-section li{
+    list-style: none;
+}
+.first-section a{
+    text-decoration: none;
+}
+.image-of-banner{
+   width: 50%;
+   border: 1px solid pink;
+}
+.group{
+    width: 500px;
+    height: 400px;
+}
+.pink-btn{
+
+margin-left: 15px;
+ display: inline-flex;
+padding: 11px 30px;
+align-items: flex-start;
+gap: 25px;
+border-radius: 20px;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+border: none;
+}
+.blue-btn{
+display: inline-flex;
+padding: 11px 30px;
+align-items: flex-start;
+gap: 25px;
+border-radius: 20px;
+background: #4EC5F7;
+border: none;
+}
+.second-section{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    display: flex;
+    
+    
+}
+.back-photo{
+    background-image: url("images/pngwing\ 4.png"),lightgray 50% / cover no-repeat;
+    width: 55%;
+    border:1px solid #F948B2;
+}
+.second-theory{
+    flex-direction: column-reverse;
+    width: 45%;
+    align-items: center;
+    border:1px solid #F948B2;
+    padding: 60px 60px 0px 60px;
+}
+.size-2{
+    width: 650px;
+    height: 400px;
+}
+.h3{
+    text-align: right;
+font-family: Work Sans;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.p{
+color: #534C64;
+text-align: right;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+}
+.pinkk-btn{
+    display: inline-flex;
+padding: 11px 30px;
+align-items: flex-start;
+margin-left: 73%;
+gap: 10px;
+border-radius: 20px;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+border: none;
+color: #FFF;
+}
+.p-2{
+    color: #534C64;
+text-align: right;
+font-family: Work Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+
+}
+.span{
+    color: #534C64;
+font-family: Work Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 45px;
+}
+.card-section{
+    margin-top: 20px;
+    display: flex;
+    gap: -80%;
+    margin: 0 5%;
+    
+}
+.imo{
+    width:240px;
+    height: 300px;
+}
+.theory-first{
+    margin-top: 20px;
+    color: #0B0223;
+text-align: center;
+font-family: Work Sans;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.extra-span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: Work Sans;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.theory-second{
+    color: #534C64;
+text-align: center;
+font-family: Work Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+}
