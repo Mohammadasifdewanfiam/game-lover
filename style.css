@@ -1,9 +1,8 @@
 *{
     margin: 0 auto;
     box-sizing: border-box;
+    font-family: 'Work Sans';
 }
-
-
 
 .tiktok{
     width: 30px;
@@ -28,14 +27,14 @@ header{
     display: flex;
   align-items: center;
   gap: 10%;
-  margin-left: 14%;
+  
 }
 .nav-cointainer{
-    display:flex;
+    display:flex;   
     justify-content: space-around;
     padding: 24px 40px;
     gap: 30%;
-    background: #FFF;
+    background: #fff;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
 .nav-info li{
@@ -49,29 +48,38 @@ header{
    
     height: 30px;
 }
-
-.olive{
-    margin-bottom: 5px; 
+.why{
+    width: 15px;
+    height: 15px;
 }
+.click{
+    align-items: center;
+    vertical-align: middle;
+    padding-left: 17%;
+    padding-bottom: 3%;
+}
+
+
 .banners{
-     width: 45%;
-     border: 1px solid pink;
+     width: 50%;
      align-items: center;
      text-align: center;
+     
     
 }
 .banner-info{
     color: #0B0223;
-    text-align: center;
+    align-items: center;
     font-family: Work Sans;
     font-size: 25px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
     text-transform: uppercase;
+    padding-bottom: 3%;
 }
 .goat{
-    text-align: center;
+
     font-family: Work Sans;
     font-size: 55px;
     font-style: normal;
@@ -87,14 +95,16 @@ header{
      display: flex;
      align-items: center;
      justify-content: space-around;
+     background-color: #FFF;
+     margin: 0;
+     background-image: url("images/Group\ 14.png");
 }
-.first-section ul{
-
-align-items: center;
-justify-content: center;
+.first-section p{
+margin-right: 5%;
+ align-items: center;
  color: #534C64;
-text-align: left;
-padding-left: 33%;
+text-align: center;
+padding-right: 25%;
 font-family: Work Sans;
 font-size: 20px;
 font-style: normal;
@@ -102,17 +112,11 @@ font-weight: 500;
 line-height: normal;
 text-transform: lowercase;
 
+}
 
-}
-.first-section li{
-    list-style: none;
-}
-.first-section a{
-    text-decoration: none;
-}
 .image-of-banner{
    width: 50%;
-   border: 1px solid pink;
+ 
 }
 .group{
     width: 500px;
@@ -147,14 +151,12 @@ border: none;
 .back-photo{
     background-image: url("images/pngwing\ 4.png"),lightgray 50% / cover no-repeat;
     width: 55%;
-    border:1px solid #F948B2;
+  
 }
 .second-theory{
-    flex-direction: column-reverse;
-    width: 45%;
-    align-items: center;
-    border:1px solid #F948B2;
-    padding: 60px 60px 0px 60px;
+    flex-direction: column;
+    width: 85%;
+
 }
 .size-2{
     width: 650px;
@@ -212,7 +214,7 @@ line-height: 45px;
     margin-top: 20px;
     display: flex;
     gap: -80%;
-    margin: 0 5%;
+    margin: 0 3%;
     
 }
 .imo{
@@ -248,4 +250,303 @@ font-size: 12px;
 font-style: normal;
 font-weight: 400;
 line-height: 30px; /* 166.667% */
+}
+.third-sec{
+    margin-top: 30px;
+    display: flex;
+}
+.third-discrip{
+    margin: 130px;
+}
+.third-p{
+    text-align: right;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+background: linear-gradient(180deg, #0B0223 100%,black 0%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+
+.no-more-span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px;
+}
+.again-p{
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+.first-img{
+
+    width: 500px;
+    height: 500px;
+}
+.last-img{
+    width: 250px;
+    height: 300px;
+    position: relative;
+    bottom: 150px;
+    right:80px;
+
+}
+.copy-cat{
+    margin-top: 30px;
+    display: flex;
+}
+.picss{
+    align-items: right;
+    padding-left:100px ;
+}
+.forth-sec{
+    margin-bottom: 30px;
+    display: flex;
+}
+.forth-discrip{
+   padding: 130px;
+   text-align: center;
+}
+.forth-p{
+    text-align: right;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+background: linear-gradient(180deg, #0B0223 100%,black 0%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+
+.Nno-more-span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px;
+}
+.again-pp{
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+.firstt-img{
+
+    width: 500px;
+    height: 500px;
+}
+.lastt-img{
+    width: 250px;
+    height: 300px;
+    position: relative;
+    bottom: 150px;
+    left:330px;
+
+}
+.pics{
+    align-items: right;
+    padding-left:100px ;
+}
+.energy-group{
+    display: flex;
+}
+.re-size{
+    width: 600px;
+    height: 610px;
+}
+.join{
+    display: flex;
+    justify-content: none;
+    padding-right: 50%;
+    gap: 20px;
+}
+.join-it{
+    width: 50%;
+    padding: 30px;
+
+}
+.fifth{
+    display: flex;
+    align-items: center;
+    margin: 0px ;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    color: #FFF;
+}
+.fifth-img{
+    width: 50%;
+}
+.carrer{
+    color: #FFF;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;}
+.game-carrer{
+color: #FFF;
+font-family: Work Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+}
+.ppp{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px; /* 200% */
+
+    }
+.button-white{
+    display: inline-flex;
+padding: 21px 40px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 48px;
+background: #FFF;
+font-family: Work Sans;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+color: #FF42A5;
+border: none;
+}
+/* 6 part */
+.love-img{
+    vertical-align: middle;
+    align-items: center;
+    
+
+}
+.parts{
+    margin-top: 30px;
+    margin: 30px 70px;
+    display: flex;
+
+}
+.facts{
+    margin-top: 30px;
+    margin: 50px 70px;
+    display: flex;
+}
+.parts:hover,.facts:hover{
+   color:#F948B2;
+}
+.love-img:hover{
+    border: 1px solid #F948B2;
+    border-radius: 50px;
+}
+.rrr{
+    width: 30px;
+    height: 30px;
+}
+footer{
+    background: #0B0223;
+    color: white;
+}
+.footer-red,.footer-Red{
+color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-family: Work Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.footer-1st{
+    padding-top:5% ;
+    margin-left: 40%;
+    margin-right: 40%;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 5%;
+}
+.footer-2nd{
+    margin-left: 25%;
+    margin-right: 25%;
+    display: flex;
+    padding-bottom: 5%;
+}
+.footer-3rd{
+    margin-left: 35%;
+    margin-right: 35%;
+    display: flex;
+    padding-bottom: 5%;
+}
+.footer-red{
+    margin-left: 30%;
+    margin-right: 30%;
+    display: flex;
+    padding-bottom: 5%;
+}
+.footer-Red{
+    margin-left: 38%;
+    margin-right: 38%;
+}
+.kiki{
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: linear-gradient(90deg, #FFF 0%, #FFF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.pipi{
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: Work Sans;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+}
+.kikki{
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: linear-gradient(90deg,#0B0223 0%,#0B0223 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
 }

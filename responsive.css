@@ -1,0 +1,87 @@
+@media  screen and (max-width:576px) {
+    .first-section{
+        flex-direction: column;
+        
+    }
+    .image-of-banner{
+        padding-top: 10%;
+        padding-right:80%;
+    }
+    .group{
+        width: 400px;
+        height: 300px;
+    }
+    .banners{
+        padding-top: 10%;
+    }
+    .back-photo{
+        width: 25%;
+        padding-right:80%;
+}
+.size-2{
+    width: 400px;
+    height: 200px;
+}
+.second-section{
+    flex-direction: column;
+}
+
+
+.second-theory{
+    flex-direction: column-reverse;
+    width: 50%;
+    padding: 20px;
+}
+.pinkk-btn{
+   margin-left: 30%;
+}
+.card-section{
+    flex-direction: column;
+}
+.third-sec{
+    flex-direction: column;
+}
+.first-img{
+    width: 300px;
+    height: 300px;
+}
+.last-img{
+   width: 150px;
+   height: 200px;
+}
+.copy-cat{
+    flex-direction: column;
+}
+
+.firstt-img{
+    width: 400px;
+    height: 300px;
+}
+.lastt-img{
+   width: 150px;
+   height: 200px;
+}
+.re-size{
+    width: 300px;
+    height: 310px;
+}
+.footer-1st {
+  font-size: small;
+}
+.footer-2nd {
+  font-size: small;
+}
+.footer-3rd {
+  font-size: small;
+  padding-right: 20%;
+}
+.footer-red {
+  font-size: small;
+  padding-right: 10%;
+}
+.footer-Red {
+  font-size: small;
+  padding-right: 7%;
+}
+
+}
